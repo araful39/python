@@ -1,62 +1,106 @@
-# name="Raju"
-# print(name)
-# is_logiing  =True
-# print(is_logiing)
-# name=input("Enter Name : ")
+# name =input("Enter your name: ")
 
-# print(name)
+# print("Your name is :",name )
 
-# age=27
 
-# if age>=26:
-#     print("Adult")
+
+# age=18
+
+# voterAge= int(input("Enter you age: "))
+
+
+# if voterAge >= age :
+#     print("Yor age voter")
 # else:
-#     print("Baby")
+#     print("Your are not voters")
 
-# pin = 1234
-# balance = 5000
 
-# entered_pin = int(input("Enter PIN: "))
 
-# if entered_pin == pin:
+# userName ="admin"
+# password =123456
 
-#     amount = int(input("Withdraw Amount: "))
 
-#     if amount <= balance:
-#         balance -= amount
-#         print("Withdraw Successful")
-#         print("Balance:", balance)
+# user=input("Enter role: ")
+# password2 =int(input("Enter your password: "))
 
+
+# if userName ==user:
+#     if password == password2:
+#         print("Login successfully")
 #     else:
-#         print("Insufficient Balance")
-
+#         print("invalide creadential")
 # else:
-#     print("Wrong PIN")
+#         print("Invalide creadential")
 
-# choice = int(input("Choose: "))
 
-# match choice:
+# day =int(input("Enter your number: "))
 
+# match day:
 #     case 1:
-#         print("Login")
+#         print("A")
 
 #     case 2:
-#         print("Register")
+#         print("B")
 
 #     case 3:
-#         print("Profile")
-
+#         print("C")
 #     case 4:
-#         print("Logout")
-
+#         print("D")
 #     case _:
-#         print("Invalid")
+#         print("Invalide")
 
 
-firstName = input("Please enter your first name: ")
-lastName = input("Please enter your last name: ")
 
-if firstName and lastName:
-    print("Name is: " + firstName + " " + lastName)
-else:
-    print("Please enter both names!")
+# age =30
+
+# # if age >= 20:
+# #     print("A")
+# # else :
+# #     print("B")
+
+
+
+# print("Adult") if age >=18 else print("Child")
+
+
+# number = 12
+
+# result = "Even" if number % 2 == 0 else "Odd"
+
+# print(result)
+
+
+# age =int(input("Enter your age: "))
+
+# if age >=18:
+#     print("Your adult")
+# elif age <=0:
+#     print("Enter valid age")
+
+# else :
+#     print("Your child")
+
+# fruits = ["apple", "banana", "cherry"]
+# x, y, z = fruits
+# print(x)
+# print(y)
+# print(z)
+# print(z)
+
+
+user ={
+    "name":"Araful",
+    "age":18
+}
+
+print(user["name"])
+
+try:
+    print(10 / 0)
+except:
+    print("Error")
+    file = open("test.txt", "w")
+file.write("Hello")
+
+import math
+print(math.sqrt(25))
